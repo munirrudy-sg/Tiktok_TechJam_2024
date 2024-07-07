@@ -16,7 +16,7 @@ The TikTok shop aims to expand more widely across the platform, attracting a wid
 
 ## Solution
 
-Our solution to expand the TikTok shop more widely across the platform is by incorporating hyperpersonalisation by extracting user interaction data such as product clicks and user searches. This interaction data will then be placed into our model, which then makes recommendations in a card that will be displayed when the user scrolls in the For You page. Shown below are the screenshots and gifs of how the user is shown personalised products in the feed:
+Our solution to expand the TikTok shop more widely across the platform is by incorporating hyperpersonalisation by extracting user interaction data such as product clicks and user searches. This interaction data will then be placed into our model, which then makes recommendations in a card that will be displayed when the user scrolls in the For You page.
 
 ### Demo
 
