@@ -16,17 +16,37 @@ The TikTok shop aims to expand more widely across the platform, attracting a wid
 
 ## Solution
 
-Our solution to expand the TikTok shop more widely across the platform is by incorporating hyperpersonalisation by extracting user interaction data such as product clicks and user searches. This interaction data will then be placed into our model, which then makes recommendations in a card that will be displayed when the user scrolls in the For You page.
+Our solution to expand the TikTok shop more widely across the platform is by incorporating hyperpersonalisation by extracting user interaction data such as product clicks and user searches. This interaction data will then be placed into our model, which then makes recommendations in a card that will be displayed when the user scrolls in the For You page. Shown below are the screenshots and gifs of how the user is shown personalised products in the feed:
 
-[![fypcard.png](https://i.postimg.cc/wvpbMLBT/fypcard.png)](https://postimg.cc/8FZbnFWq)
+### Demo
 
-### Extracting of User Circumstances
+#### Extracting User Circumstance Data
 
-The user circumstance data will be extracted from the search bar of the main *For You* page. 
+The user circumstances will be extracted from the search bar of the main **For You** page. Why? Sometimes, the FYP does not necessarily have content or video that we might be interested in. So what do we do? We query the search bar to see relevant videos. With this - we saw an opportunity to extract *user circumstances* from the search field. In addition to the frequent use of the FYP, FYP also give users the flexibility of typing whatever they want into the search bar - enabling for greater personalisation. 
 
-[![Untitled-design.png](https://i.postimg.cc/857B1CRP/Untitled-design.png)](https://postimg.cc/BLG1p47d)
+Shown below is the screenshot and gif demonstrating the functionality:
 
-Why? Sometimes, the FYP does not necessarily have content or video that we might be interested in. So what do we do? We query the search bar to see relevant videos. With this - we saw an opportunity to extract *user circumstances* from the search field. In addition to the frequent use of the FYP, FYP also give users the flexibility of typing whatever they want into the search bar - enabling for greater personalisation.
+<div align="center">
+   
+Screenshot             |  Gif Demo
+:-------------------------:|:-------------------------:
+[![Untitled-design.png](https://i.postimg.cc/857B1CRP/Untitled-design.png)](https://postimg.cc/BLG1p47d)   |  [![search.gif](https://i.postimg.cc/T3dnTzHG/search.gif)]([https://postimg.cc/2Vt1wKDX])
+
+Any searches performed in the search field plus product clicks are logged to feed in the recommendation model.
+
+</div>
+
+#### Integration of the TikTok Shop into the "For You" page
+
+Based on the extracted user circumstances and user-product interactions, the `ShopFYPCard` will be displayed to the user when he/she scrolls through the **For You** page. The products shown in the card are personalised to the user. The user is also given the option to click on the product and be redirected to the product in the TikTok shop.
+
+<div align="center">
+
+Screenshot             |  Gif Demo
+:-------------------------:|:-------------------------:
+[![fypcard.png](https://i.postimg.cc/wvpbMLBT/fypcard.png)](https://postimg.cc/8FZbnFWq)   |  [![shopcard.gif](https://i.postimg.cc/rw5HBg9X/shopcard.gif)](https://postimg.cc/gxk4RV5N)
+
+</div>
 
 ### Architecture Design
 
@@ -35,7 +55,6 @@ The team's architecture design is shown in the figure below:
 [![Tik-Tok-Tech-Jam-Hackathon-2024-COMPLETED-System-Architecture.png](https://i.postimg.cc/BQb5VLWJ/Tik-Tok-Tech-Jam-Hackathon-2024-COMPLETED-System-Architecture-2.png)](https://postimg.cc/rK6tdpFH)
 
 The system is comprised of three main components, (1) The backend, implemented with a lightweight Python-based web library called Flask, (2) the product and user circumstance encoder, implemented using BERT language model, (3) Vector Search with FAISS for similarity search, (4) the frontend/user interface written in React, and (5) Firebase, which is where product and user information are stored.
-
 
 ### Frontend
 
