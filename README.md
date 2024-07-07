@@ -56,7 +56,7 @@ The team's architecture design is shown in the figure below:
 
 [![Tik-Tok-Tech-Jam-Hackathon-2024-COMPLETED-System-Architecture.png](https://i.postimg.cc/BQb5VLWJ/Tik-Tok-Tech-Jam-Hackathon-2024-COMPLETED-System-Architecture-2.png)](https://postimg.cc/rK6tdpFH)
 
-For a more high-definition view of the architecture diagram, view the diagram on Lucidchart [here](https://lucid.app/lucidchart/50d7bc62-90cb-4cf2-a80b-4c1619c3537e/edit?viewport_loc=-6786%2C-995%2C8458%2C4532%2C9ORRML0z2nte&invitationId=inv_2452cb15-3792-464e-983b-209300af4543).
+For a high-definition view of the architecture diagram, view the diagram on Lucidchart [here](https://lucid.app/lucidchart/50d7bc62-90cb-4cf2-a80b-4c1619c3537e/edit?viewport_loc=-6786%2C-995%2C8458%2C4532%2C9ORRML0z2nte&invitationId=inv_2452cb15-3792-464e-983b-209300af4543).
 
 The system is comprised of three main components, (1) The backend, implemented with a lightweight Python-based web library called Flask, (2) the product and user circumstance encoder, implemented using BERT language model, (3) Vector Search with FAISS for similarity search, (4) the frontend/user interface written in React, and (5) Firebase, which is where product and user information are stored.
 
