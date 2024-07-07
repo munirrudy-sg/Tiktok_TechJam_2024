@@ -1,0 +1,110 @@
+.search-page {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 10px; /* Reduced padding */
+}
+
+.search-bar {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  background: #f1f1f1;
+  border-radius: 8px;
+  padding: 5px 10px; /* Reduced padding */
+  margin-top: 10px; /* Reduced margin */
+}
+
+.back-button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.search-input {
+  flex-grow: 1;
+  padding: 5px; /* Reduced padding */
+  border: none;
+  border-radius: 4px;
+  margin: 0 8px;
+  font-size: 16px; /* Increased font size for better readability */
+}
+
+.search-button {
+  background: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px; /* Reduced padding */
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px; /* Increased font size for better readability */
+}
+
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.results-container {
+  flex-grow: 1;
+  width: 100%;
+  overflow-y: auto;
+  padding: 10px 0; /* Reduced padding */
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding: 0 10px; /* Added padding to results */
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  width: calc(100% - 40px); /* Adjusted width for better responsiveness */
+  max-width: 200px; /* Added max-width */
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.product-info {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.product-info h3 {
+  font-size: 16px;
+  margin: 5px 0; /* Reduced margin */
+  color: #333;
+}
+
+.product-info p {
+  font-size: 14px;
+  color: #888;
+}

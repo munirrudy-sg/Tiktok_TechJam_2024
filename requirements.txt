@@ -1,0 +1,8 @@
+flask
+flask-cors
+transformers
+torch
+numpy
+faiss-cpu
+firebase-admin
+numpy
