@@ -30,7 +30,7 @@ Shown below is the screenshot and gif demonstrating the functionality:
    
 Screenshot             |  Gif Demo
 :-------------------------:|:-------------------------:
-[![Untitled-design.png](https://i.postimg.cc/857B1CRP/Untitled-design.png)](https://postimg.cc/BLG1p47d)   |  [![search.gif](https://i.postimg.cc/T3dnTzHG/search.gif)]([https://postimg.cc/2Vt1wKDX])
+[![Untitled-design.png](https://i.postimg.cc/857B1CRP/Untitled-design.png)](https://postimg.cc/BLG1p47d) | [![search.gif](https://i.postimg.cc/T3dnTzHG/search.gif)]([https://postimg.cc/2Vt1wKDX])
 
 Any searches performed in the search field plus product clicks are logged to feed in the recommendation model.
 
@@ -44,7 +44,7 @@ Based on the extracted user circumstances and user-product interactions, the `Sh
 
 Screenshot             |  Gif Demo
 :-------------------------:|:-------------------------:
-[![fypcard.png](https://i.postimg.cc/wvpbMLBT/fypcard.png)](https://postimg.cc/8FZbnFWq)   |  [![shopcard.gif](https://i.postimg.cc/rw5HBg9X/shopcard.gif)](https://postimg.cc/gxk4RV5N)
+[![fypcard.png](https://i.postimg.cc/wvpbMLBT/fypcard.png)](https://postimg.cc/8FZbnFWq)   | [![shopcardfyp.gif](https://i.postimg.cc/W4f8HfH7/shopcardfyp.gif)](https://postimg.cc/4KVpKwZK)
 
 </div>
 
