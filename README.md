@@ -48,6 +48,8 @@ Screenshot             |  Gif Demo
 
 </div>
 
+As shown, as the user searched for "Bluetooth Speaker" earlier the shop card in the For You page will update itself to recommend relevant products to that search.
+
 ### Architecture Design
 
 The team's architecture design is shown in the figure below:
